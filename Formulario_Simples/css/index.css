@@ -1,0 +1,75 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     outline: none;
+}
+
+body { 
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100vh;
+       background: linear-gradient(150deg, grey, skyblue);
+       opacity: 0.9;
+}
+
+#container {
+     height: 650px;
+     width: 450px;
+     background-color:  ghostwhite;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 15px;
+     opacity: 0.8;
+     box-shadow: 5px 8px 7px 2px black;
+}
+
+form { 
+     display: flex ;
+     align-items: center;
+     flex-direction: column;
+}
+
+form input { 
+      margin: 10px;
+      width: 300px;
+      padding: 12px;
+      border-radius: 5px;
+}
+
+input::placeholder {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form textarea {
+     max-width: 300px;
+     max-height: 200px;
+     text-indent: 10px ;
+     margin-top: 5px;
+}
+
+textarea::placeholder {
+     font-size: 16px;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans'
+}
+
+#btn {
+      margin-top: 20px;
+      padding: 15px;
+      width: 300px;
+      background-color: transparent;
+      border-color: white;
+      border-color: #c5c5c5;
+      color: #000;
+      font-size: 17px;
+      font-weight: 700;
+      font-family: sans-serif;
+      border-radius: 8px;
+      cursor: pointer;
+      box-shadow: 2px 3px 2px 1px rgb(126, 123, 123);
+}
+
+#btn:hover { background-color: #fff;}
